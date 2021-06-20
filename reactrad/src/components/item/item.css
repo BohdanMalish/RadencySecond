@@ -1,0 +1,53 @@
+li{
+    list-style: none;
+}
+.todo-item{
+    padding:10px ;
+    padding-left: 20px;
+    margin-top: 10px;
+    background-color: rgb(226, 217, 217);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    font-weight: 400;
+}
+.header-line{
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-around;
+    min-width: 1100px;
+}
+.item-line{margin-left: 0;
+    padding-left: 0px;
+}
+.header-line-buttons{
+    display: flex;
+    
+    
+}
+.header-line-buttons button{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-line li{
+    width:180px ;
+list-style: none; 
+overflow: hidden;
+padding: 10px;    
+}
+.header-line-itemRandom::before{
+    margin-left: 3px;
+    margin-top: 10px;
+}
+.header-line-itemTask::before{
+  margin-left: 3px;
+  margin-top: 10px;
+
+}
+.header-line-itemIdea::before{
+    
+  margin-left: 3px;
+  margin-top: 10px;
+
+}
