@@ -1,0 +1,74 @@
+.todo-wrapper {
+    margin: 100px 80px 80px 80px;
+}
+
+.header-line-info {
+    background-color: rgb(165, 161, 161);
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header-line {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-around;
+    min-width: 1100px;
+}
+
+.header-line-info-lst {
+    min-width: 400px;
+
+}
+
+.Status-notes {
+    display: flex;
+}
+
+.Status-notes li:last-child {
+    margin-right: 250px;
+}
+
+.Status-notes li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 300px;
+
+
+}
+
+.Status-notes-items li {
+    padding-right: 35px;
+    padding-left: 60px;
+    width: 20px;
+}
+
+.Status-notes-items li:last-child {
+    padding-right: 29px;
+    padding-left: 0px;
+
+}
+
+.header-line-info-item {
+    background-color: rgb(226, 217, 217);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(94, 94, 94);
+
+
+
+}
+
+.header-line-info-item img {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}

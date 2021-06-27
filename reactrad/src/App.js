@@ -1,16 +1,14 @@
 import './App.css';
-import ListItem from './components/listItems/items';
+import Notes from './components/Notes/Notes';
+import Modal from './components/Modals/Modals';
+import Summary from './components/Summary/Summary';
 function App() {
-  const l={
-    name:'ki',
-    context:'lo',
-    category:'task'
-  }
   return (
-    <div >
-   <ListItem></ListItem>
-   
-    </div>
+    <>
+      <Modal />
+      <Notes />
+      <Summary />
+    </>
   );
 }
 

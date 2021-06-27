@@ -1,0 +1,72 @@
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    position: relative;
+    color: black;
+    background-color: white;
+    margin: auto;
+    padding: 40px 100px;
+    border: 2px solid white;
+    width: 50%;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+
+}
+
+.title-create {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-cont {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    margin-top: 10px;
+
+}
+
+.form-cont input {
+    width: 150px;
+    margin-top: 12px;
+    outline: none;
+    height: 20px;
+}
+
+.form-cont p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+#form-submit-button {
+    position: absolute;
+    outline: none;
+
+    width: 70px;
+    cursor: pointer;
+    height: 30px;
+    right: 10px;
+}
+
+.close {
+    font-size: 45px;
+    cursor: pointer;
+    position: absolute;
+
+    right: 4px;
+    top: -10px;
+
+}
