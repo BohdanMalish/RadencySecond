@@ -3,47 +3,73 @@ const initialState = {
   data: [
     {
       id: 1,
-      name: '1',
-      dateCreated: 'lll',
-      category: 'vova',
-      context: 'ebav',
-      planDate: 'Olya',
+      name: 'Take a new Task',
+      dateCreated: '19.02.2021',
+      category: 'Random',
+      context: '..',
+      planDate: '21.03.2021',
       archive: true
     },
     {
       id: 2,
-      name: '2',
-      dateCreated: 'lll',
-      category: 'vova',
-      context: 'ebav',
-      planDate: 'Olya',
-      archive: false
+      name: 'Take a new Task',
+      dateCreated: '19.02.2021',
+      category: 'Random',
+      context: '..',
+      planDate: '21.03.2021',
+      archive: true
     },
     {
       id: 3,
-      name: '3',
-      dateCreated: 'lll',
-      category: 'Random',
-      context: 'ebav',
-      planDate: 'Olya',
+      name: 'Take a new Task',
+      dateCreated: '19.02.2021',
+      category: 'Task',
+      context: '..',
+      planDate: '21.03.2021',
       archive: false
     },
     {
       id: 4,
-      name: '4',
-      dateCreated: 'lll',
-      category: 'vova',
-      context: 'ebav',
-      planDate: 'Olya',
+      name: 'Take a new Task',
+      dateCreated: '19.02.2021',
+      category: 'Idea',
+      context: '..',
+      planDate: '21.03.2021',
       archive: false
-    }
+    },
+    {
+      id: 5,
+      name: 'Take a new Task',
+      dateCreated: '19.02.2021',
+      category: 'Idea',
+      context: '..',
+      planDate: '21.03.2021',
+      archive: false
+    },
+    {
+      id: 6,
+      name: 'Take a new Task',
+      dateCreated: '19.02.2021',
+      category: 'Idea',
+      context: '..',
+      planDate: '21.03.2021',
+      archive: false
+    },
+    {
+      id: 7,
+      name: 'Take a new Task',
+      dateCreated: '19.02.2021',
+      category: 'Idea',
+      context: '..',
+      planDate: '21.03.2021',
+      archive: false
+    },
   ]
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_DATA:
-      console.log('Kolya', action.payload);
       return {
         data: action.payload
       };

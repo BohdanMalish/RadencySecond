@@ -12,11 +12,17 @@ const ModalEdit = () => {
 
   const changeDate = (e) => {
     e.preventDefault();
+    if(e.target.date.value===''){
+
+    }
+    else{
+    let tempDate=new Date(e.target.date.value).toLocaleDateString()
     data.forEach((note) => {
       if (note.id === noteId) {
-        note.planDate = e.target.date.value;
+        note.planDate = tempDate;
       }
     });
+    }
     dispatch(updateData(data));
     dispatch(closeEditor());
   };
